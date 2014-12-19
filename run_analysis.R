@@ -72,4 +72,7 @@ colnames(tidy_data) <- col_names
 
 # Write tidy_data to csv file
 write.csv(tidy_data, "Cleaned_Activity_Smartphone.csv")
+write.table(tidy_data, "Cleaned_Activity_Smartphone.txt", row.name=FALSE) 
 
+# use this command to read in the text file
+# read.table("Cleaned_Activity_Smartphone.txt", header = TRUE)

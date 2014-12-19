@@ -19,6 +19,7 @@ The goal of this project was to process the dataset so that the result would be 
 * **CodeBook.md**:  The code book describes the variables, the data, and all transformations or work done to get the clean data set that is ready for further analysis.
 * **UCI HAR Dataset**: [Download the data here.](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). Unzip this folder and set your R working directory (setwd) to the folder where you saved the dataset. Do not include the data folder itself in your working directory path. So, if your "UCI HAR Dataset" is saved and unzipped in the "GettingandCleaningData" folder you should set your working directory to that folder like this "C:/User/Documents/GettingandCleaningData" do not include the "UCI HAR Dataset" folder like this "C:/User/Documents/GettingandCleaningData/UCI HAR Dataset". 
 * **Cleaned_Activity_Smartphone.csv**: The result of run_analysis.R
+* **Cleaned_Activity_Smartphone.txt**: The result of run_analysis.R
  
 ### Course Project instructions
 For reference I included the course project instructions

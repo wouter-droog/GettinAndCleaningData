@@ -76,4 +76,6 @@ Transcript of transformations:
 * By use of the "dplyr" package functions a tidy dataset is created (tidy_data). The data is grouped by subject.id and activity. For the resultant group the averages are obtained and put into a table by the function sumarise. As expected the result gives us 180 observations (30 subjects x 6 activities). So, each row is an observation and each column is a variable.
 * The column names of the tidy_data are made more descriptive. Apart from std all abbreviations are spelled out, every word within a variable now starts with a Capital letter for readability purposes and brackets and "-" are removed.
 * Finally the tidy_data is written to a .csv file with the name "Cleaned_Activity_Smartphone.csv"
-
+* tidy_data is also written as .txt file "Cleaned_Activity_Smartphone.txt"
+* use this command to read in .txt file :
+read.table("Cleaned_Activity_Smartphone.txt", header = TRUE)
