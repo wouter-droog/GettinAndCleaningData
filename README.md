@@ -5,6 +5,7 @@ This is the repo for the Course Project of the course "Getting and Cleaning Data
 ### Important
 * Set you R working directory to the right path. For instructions see below, section Files and data.
 * You need to install the dplyr package.
+* use this command to read in .txt file : read.table("Cleaned_Activity_Smartphone.txt", header = TRUE)
 
 ### General information
 The goal of this project was to process the dataset so that the result would be a nice clean dataset that is ready for subsequent analysis. The data is from smartphone users performing several physical activities. For more information of the data [click this link](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
